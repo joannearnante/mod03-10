@@ -129,6 +129,8 @@ main {
     background-position: bottom; 
     background-size: auto;
     background-color: #F0F0F0;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .writinginstrumentscontainer h2 {
@@ -153,6 +155,7 @@ main {
 #fineliner {
     background-image: url("../images/fineliner.png");
 }
+
 
 #newscaption {
     width: 100%;
@@ -198,7 +201,65 @@ main {
     border-color: black;
     color: black;
 }
+/*end of boutiques*/
+#featuredproducts {
+    background-image: url("../images/products.jpg");
+    width: auto;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: top; 
+    background-size: auto;
+    color: white;
+}
 
+#shop {
+    position: relative;
+    top: 55%;
+    text-align: left;
+    float: left;
+    color: white;
+    padding-left: 20px;
+    border-color: white;
+}
+/*products*/
+
+.products {
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center 10%; 
+    background-size: auto 75%;
+    background-color: #F0F0F0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.products h2 {
+    text-align: center;
+    position: relative;
+    top: 97%;
+    transform: translateY(-100%);
+    font-size: 16px;
+}
+
+#product1 {
+    background-image: url("../images/product1.png");
+    height: 300px;
+}
+
+#product2 {
+    background-image: url("../images/product2.png");
+}
+
+#product3 {
+    background-image: url("../images/product3.png");
+}
+
+#product4 {
+    background-image: url("../images/product4.png");
+}
+
+/*end*/
 footer {
     height: 10%;
     width: 100%;
@@ -223,6 +284,13 @@ footer p {
         float: left;
         margin: 1%;
     }
+
+    .products {
+        width: 47%;
+        height: 300px;
+        float: left;
+        margin: 1.25%;
+    }
 }
 
 /*pc*/
@@ -236,5 +304,13 @@ footer p {
         float: left;
         margin: 1%;
         background-position: 40% 100%;
+    }
+
+    .products {
+        width: 22%;
+        height: 300px;
+        float: left;
+        margin: 1%;
+        margin-left: 1.75%;
     }
 }
